@@ -1,0 +1,78 @@
+
+html body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.required{
+    font-size: 12px;
+    color: red;
+}
+
+.header-div{
+    border-bottom: 4px solid #e7eaec;
+    margin-bottom: 30px;
+    background-color: #f3f3f4;
+}
+.clear-form{
+max-width: 450px;
+margin: 0 auto 20px;
+background-color: #fff;
+border: 1px solid rgba(0,0,0,0.1);
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+-webkit-box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+-moz-box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+}
+
+
+.clear-form .form-heading {
+    padding-bottom: 0px;
+}
+
+.clear-form .form-heading, .clear-form .form-footer {
+    padding: 15px 35px;
+    margin-bottom: 0px;
+}
+
+.clear-form .form-body {
+    padding: 0px 35px;
+}
+
+.clear-form .form-body .body-split {
+    display: block;
+}
+.clear-form .form-body input[type="text"], .clear-form .form-body input[type="password"] {
+    font-size: 14px;
+    height: auto;
+    padding: 11px 18px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+    -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+    background: #f6f6f6;
+    border: 1px solid #bbb;
+    -webkit-transition: all border linear 0.2s,box-shadow linear 0.2s,background linear 0.2s ease-out;
+    -moz-transition: all border linear 0.2s,box-shadow linear 0.2s,background linear 0.2s ease-out;
+    -o-transition: all border linear 0.2s,box-shadow linear 0.2s,background linear 0.2s ease-out;
+    transition: all border linear 0.2s,box-shadow linear 0.2s,background linear 0.2s ease-out;
+}
+
+
+.clear-form .form-body input[type="text"],.clear-form .form-body input[type="password"]{
+    margin-bottom : 5px;
+    margin-top: 20px;
+}
+
+.clear-form .form-heading{
+    padding-bottom: 0px;
+}
+
+
+.clear{
+    clear: both;
+}

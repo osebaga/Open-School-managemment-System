@@ -1,0 +1,57 @@
+body{
+    font-family: "open sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #676a6c;
+    overflow-x:hidden;
+    font-size: 13px;
+}
+.required{
+    color: red;
+}
+
+.form-group{
+    margin: 0px;
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    clear-after: both;
+
+}
+.form-group::after{
+    clear: both !important;
+}
+
+.control-label{
+    text-align: right;
+    font-weight: bold;
+    float: left;
+    display: inline-block;
+    width: 25%;
+    padding-top: 7px;
+
+}
+
+.form-controldiv{
+    float: left;
+    width: 70%;
+    margin-left: 10px;
+    display: inline-block;
+}
+
+.form-control{
+    margin: 0px;
+    background-color: #FFFFFF;
+    background-image: none;
+    border: 1px solid #e5e6e7;
+    border-radius: 0px;
+    color: inherit;
+    width: 100%;
+    display: block;
+    padding: 6px 12px;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    font-size: 14px;
+}
+
+.form-control:focus {
+    border-color: #1ab394 !important;
+}
+

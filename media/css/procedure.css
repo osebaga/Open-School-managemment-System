@@ -1,0 +1,28 @@
+ul.procedure{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+ul.procedure li{
+    margin-bottom: 20px;
+}
+.head_title{
+    display: block;
+    background: #c4e3f3;
+    padding: 5px;
+    color: brown;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.procedure_content{
+    padding-top: 10px;
+}
+ul.list_data{
+    list-style: disc;
+}
+
+ul.list_data li{
+    padding: 0px;
+    margin-bottom: 2px;
+}
